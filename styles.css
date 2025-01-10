@@ -13,15 +13,14 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-h1, h2 {
+h1 {
+h1 {
+    color: #1252ff;
+    font-size: 28px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
-h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
-    color: #1252FF;
-}
 h2 {
     color: #00796b;
     font-size: 20px;
@@ -29,6 +28,7 @@ h2 {
     margin-bottom: 15px;
     border-bottom: 2px solid #4dd0e1;
     padding-bottom: 5px;
+    text-align: center;
 }
 p {
     text-align: justify;
