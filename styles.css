@@ -69,7 +69,10 @@ ul li strong {
     text-decoration: underline;
 }
 
-/* Kelas khusus untuk tautan Instagram */
-.footer-link {
+.footer p {
+    font-size: 20px;
+}
+
+.footer a.footer-link {
     font-size: 20px;
 }
