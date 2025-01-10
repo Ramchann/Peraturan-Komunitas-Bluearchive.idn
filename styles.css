@@ -52,11 +52,10 @@ ul li strong {
     color: #00796b;
 }
 
-/* Footer */
 .footer {
     text-align: center;
     margin-top: 20px;
-    font-size: 14px; /* Ukuran font default untuk footer */
+    font-size: 14px;
     color: #555;
 }
 
@@ -69,8 +68,12 @@ ul li strong {
     text-decoration: underline;
 }
 
-.footer p {
+.footer p.footer-text {
     font-size: 20px;
+}
+
+.footer p.footer-info {
+    font-size: 14px;
 }
 
 .footer a.footer-link {
