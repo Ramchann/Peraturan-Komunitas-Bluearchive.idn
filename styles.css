@@ -1,7 +1,7 @@
 /* Umum */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, #d4fc79, #96e6a1); /* Biru Aqua ke hijau muda */
+    background: linear-gradient(to bottom, #d4fc79, #96e6a1);
     margin: 0;
     padding: 0;
     color: #333;
@@ -10,12 +10,12 @@ body {
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #e0f7fa; /* Aqua terang */
+    background-color: #e0f7fa;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 h1, h2 {
-    color: #00796b; /* Biru tua aqua */
+    color: #00796b;
     text-align: center;
 }
 h1 {
@@ -26,7 +26,7 @@ h2 {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 15px;
-    border-bottom: 2px solid #4dd0e1; /* Garis biru aqua */
+    border-bottom: 2px solid #4dd0e1;
     padding-bottom: 5px;
 }
 p {
