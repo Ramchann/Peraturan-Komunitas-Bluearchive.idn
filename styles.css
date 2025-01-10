@@ -1,63 +1,76 @@
-/* Umum */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, #d4fc79, #96e6a1);
+    background: linear-gradient(to bottom, #d4fc79, #96e6a1); /* Biru Aqua ke Hijau Muda */
     margin: 0;
     padding: 0;
     color: #333;
 }
+
 .container {
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #e0f7fa;
+    background-color: #b2ebf2; /* Biru Aqua Muda */
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #333; /* Tetap Warna Teks Hitam */
 }
+
+.container-inner {
+    background-color: #ffffff; /* Background Teks Tetap Putih */
+    padding: 15px;
+    border-radius: 10px;
+}
+
 h1, h2 {
-    color: #00796b;
+    color: #00796b; /* Biru Tua Aqua */
     text-align: center;
 }
+
 h1 {
     font-size: 28px;
     margin-bottom: 10px;
 }
+
 h2 {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 15px;
-    border-bottom: 2px solid #4dd0e1;
+    border-bottom: 2px solid #4dd0e1; /* Garis Aqua */
     padding-bottom: 5px;
 }
+
 p {
     text-align: justify;
     margin-bottom: 15px;
 }
 
-/* Daftar aturan */
 ul {
     list-style-type: disc;
     margin-left: 20px;
 }
+
 ul li {
     margin-bottom: 10px;
     line-height: 1.5;
 }
+
 ul li strong {
-    color: #00796b; /* Warna biru aqua tua */
+    color: #00796b; /* Warna Biru Tua Aqua */
 }
 
-/* Footer */
 .footer {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
     color: #555;
 }
+
 .footer a {
     color: #00796b;
     text-decoration: none;
 }
+
 .footer a:hover {
     text-decoration: underline;
 }
