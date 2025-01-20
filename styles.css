@@ -1,29 +1,30 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom left, #1a00ff, #7e03ff);
     margin: 0;
     padding: 0;
     color: #333;
+    background: url('resource/image.png') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container {
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparansi */
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    color: #1252FF; /* Warna baru untuk h1 */
+    color: #1252FF;
     font-size: 28px;
     margin-bottom: 10px;
     text-align: center;
 }
 
 h2 {
-    color: #00796b; /* Warna biru tua aqua untuk h2 */
+    color: #00796b;
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 15px;
@@ -32,24 +33,9 @@ h2 {
     text-align: center;
 }
 
-p {
-    text-align: justify;
-    margin-bottom: 15px;
-}
-
-/* Daftar aturan */
 ul {
     list-style-type: disc;
     margin-left: 20px;
-}
-
-ul li {
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
-
-ul li strong {
-    color: #00796b;
 }
 
 .footer {
@@ -66,16 +52,4 @@ ul li strong {
 
 .footer a:hover {
     text-decoration: underline;
-}
-
-.footer p.footer-text {
-    font-size: 16px;
-}
-
-.footer p.footer-info {
-    font-size: 13px;
-}
-
-.footer a.footer-link {
-    font-size: 16px;
 }
