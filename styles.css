@@ -39,9 +39,10 @@ ul {
 }
 
 .footer {
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
     font-size: 14px;
+    padding-left: 10px;
     color: #555;
 }
 
