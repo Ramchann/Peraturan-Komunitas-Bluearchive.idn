@@ -54,3 +54,14 @@ ul {
 .footer a:hover {
     text-decoration: underline;
 }
+
+.footer p.footer-text {
+    font-size: 16px;
+}
+
+.footer p.footer-info {
+    font-size: 13px;
+}
+
+.footer a.footer-link {
+    font-size: 16px;
