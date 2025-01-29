@@ -1,10 +1,10 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background: url('resource/image.png') no-repeat center center fixed;
+    background-color: #f0f5ff; /* Warna latar belakang jika gambar tidak tampil */
+    background-image: url('resource/image.png');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
