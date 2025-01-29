@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f0f5ff; /* Warna latar belakang jika gambar tidak tampil */
+    background-color: #f0f5ff;
     background-image: url('resource/image.png');
     background-size: cover;
     background-position: center;
@@ -17,7 +17,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.8); /* Warna putih dengan transparansi 80% */
+    background: rgba(255, 255, 255, 0.8); /* transparasi 80% */
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
