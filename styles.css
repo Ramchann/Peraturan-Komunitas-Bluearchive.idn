@@ -125,3 +125,10 @@ h1 {
         padding: 15px;
     }
 }
+
+.copyright {
+    text-align: left;
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+}
