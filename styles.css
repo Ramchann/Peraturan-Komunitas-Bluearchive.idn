@@ -31,10 +31,10 @@ h1 {
     margin-bottom: 15px;
     font-size: 2.2em;
     text-shadow:
-        -0.6px -0.6px 0 #fff59d,
-         0.6px -0.6px 0 #fff59d,
-        -0.6px  0.6px 0 #fff59d,
-         0.6px  0.6px 0 #fff59d;
+        -0.5px -0.5px 0 #fff59d,
+         0.5px -0.5px 0 #fff59d,
+        -0.5px  0.5px 0 #fff59d,
+         0.5px  0.5px 0 #fff59d;
 }
 
 .subtitle {
