@@ -6,6 +6,6 @@ agreeCheckbox.addEventListener('change', () => {
 });
 
 agreeButton.addEventListener('click', () => {
-    // Redirect ke grup wa
+    // Redirect ke komun wa
     window.location.href = 'https://chat.whatsapp.com/GVZCNwllCCz9dSWv9jnfL4?mode=wwt';
 });
