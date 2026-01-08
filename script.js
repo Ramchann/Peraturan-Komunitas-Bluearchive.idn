@@ -7,5 +7,5 @@ agreeCheckbox.addEventListener('change', () => {
 
 agreeButton.addEventListener('click', () => {
     // Redirect ke komun wa
-    window.location.href = 'https://chat.whatsapp.com/GVZCNwllCCz9dSWv9jnfL4?mode=wwt';
+    window.location.href = 'https://chat.whatsapp.com/FroJPIBOk6rA3TpuLRqsQq';
 });
