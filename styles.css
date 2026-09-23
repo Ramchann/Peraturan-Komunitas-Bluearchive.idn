@@ -104,20 +104,22 @@ h1 {
 .community-link a {
     display: inline-block;
     padding: 10px 20px;
-    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
     color: #ffffff;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
+    letter-spacing: 0.1px;
     transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
 }
 
 .contact-admin a {
-    background-color: #2635ff;
+    background: linear-gradient(135deg, #4055ff 0%, #2635ff 55%, #1724d9 100%);
+    box-shadow: 0 4px 12px rgba(38, 53, 255, 0.35);
 }
 
 .community-link a {
     background: linear-gradient(135deg, #ffb347 0%, #f59e0b 50%, #ea580c 100%);
-    font-weight: 700;
     box-shadow: 0 4px 10px rgba(245, 158, 11, 0.35);
 }
 
@@ -125,6 +127,11 @@ h1 {
 .community-link a:hover {
     transform: translateY(-2px);
     filter: brightness(1.08);
+}
+
+.contact-admin a:active,
+.community-link a:active {
+    transform: translateY(0);
 }
 
 .contact-admin a:focus-visible,
