@@ -207,8 +207,8 @@ h1 {
 }
 
 .community-link a {
-    background: linear-gradient(135deg, #ffbb4f 0%, #f59e0b 50%, #ea580c 100%);
-    box-shadow: 0 0 0 1px rgba(255,255,255,0.18), 0 10px 22px rgba(245, 158, 11, 0.42), 0 0 20px rgba(251, 146, 60, 0.7);
+    background: linear-gradient(135deg, #2f5ef7 0%, #2347d8 45%, #1837bf 100%);
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.1), 0 10px 20px rgba(43, 86, 255, 0.38), 0 0 18px rgba(77, 113, 255, 0.45);
 }
 
 .contact-admin a:hover,
@@ -222,7 +222,7 @@ h1 {
 }
 
 .community-link a:hover {
-    box-shadow: 0 0 0 1px rgba(255,255,255,0.22), 0 14px 30px rgba(245, 158, 11, 0.55), 0 0 28px rgba(251, 146, 60, 0.9);
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.18), 0 14px 28px rgba(43, 86, 255, 0.5), 0 0 26px rgba(77, 113, 255, 0.6);
 }
 
 .contact-admin a:active,
@@ -242,6 +242,15 @@ h1 {
     background: #f8faff;
     border-radius: 10px;
     text-align: center;
+}
+
+.action-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 12px;
 }
 
 #agreeButton {
@@ -290,7 +299,7 @@ h1 {
     .container {
         padding: 15px;
     }
-    
+
     h1 {
         font-size: 1.8em;
     }
@@ -315,6 +324,10 @@ h1 {
 
     #agreeButton {
         width: 100%;
+    }
+
+    .action-row {
+        flex-direction: column;
     }
 }
 
