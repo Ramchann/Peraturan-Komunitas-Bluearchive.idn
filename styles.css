@@ -215,7 +215,14 @@ h1 {
 .community-link a:hover {
     transform: translateY(-3px) scale(1.01);
     filter: brightness(1.08);
+}
+
+.contact-admin a:hover {
     box-shadow: 0 0 0 1px rgba(255,255,255,0.2), 0 14px 30px rgba(44, 74, 255, 0.55), 0 0 28px rgba(61, 94, 245, 0.8);
+}
+
+.community-link a:hover {
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.22), 0 14px 30px rgba(245, 158, 11, 0.55), 0 0 28px rgba(251, 146, 60, 0.9);
 }
 
 .contact-admin a:active,
