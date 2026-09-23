@@ -46,52 +46,124 @@ h1 {
 
 .rules-list {
     counter-reset: peraturan;
+    display: grid;
+    gap: 18px;
 }
 
 .rule-category {
-    margin-bottom: 25px;
-    padding: 20px;
-    background: #f8faff;
-    border-radius: 10px;
-    border-left: 4px solid #2a52be;
-    transition: transform 0.2s;
+    position: relative;
+    margin-bottom: 0;
+    padding: 22px 24px 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(239, 246, 255, 0.92));
+    border: 1px solid rgba(82, 120, 220, 0.18);
+    border-left: 5px solid #2a52be;
+    border-radius: 14px;
+    box-shadow: 0 6px 16px rgba(42, 82, 190, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.rule-category::after {
+    content: "";
+    position: absolute;
+    top: -45px;
+    right: -35px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(104, 145, 255, 0.16), transparent 68%);
+    pointer-events: none;
 }
 
 .rule-category:hover {
-    transform: translateX(5px);
-    background-color: #e6efff;
+    transform: translateY(-4px);
+    border-color: rgba(42, 82, 190, 0.4);
+    box-shadow: 0 12px 26px rgba(42, 82, 190, 0.18), 0 0 18px rgba(78, 121, 255, 0.12);
 }
 
 .rule-category h3 {
-    color: #2a52be;
-    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    color: #23489f;
+    margin-bottom: 17px;
+    font-size: 1.08rem;
+    line-height: 1.35;
     counter-increment: peraturan;
 }
 
 .rule-category h3::before {
     content: counter(peraturan);
-    background: #2a52be;
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    margin-right: 11px;
+    background: linear-gradient(135deg, #4169e1, #203bb2);
     color: white;
-    padding: 5px 12px;
-    border-radius: 5px;
-    margin-right: 10px;
-    font-size: 0.9em;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    font-size: 0.85em;
+    box-shadow: 0 4px 10px rgba(42, 82, 190, 0.3);
 }
 
 .rule-category ul {
-    margin-left: 25px;
-    color: #444;
+    position: relative;
+    z-index: 1;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 45px;
+    color: #3f4b63;
 }
 
 .rule-category li {
-    margin-bottom: 10px;
     position: relative;
-    padding-left: 15px;
+    margin-bottom: 11px;
+    padding-left: 19px;
+    line-height: 1.55;
+}
+
+.rule-category li::before {
+    content: "";
+    position: absolute;
+    top: 0.65em;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    background: #5b7ce2;
+    border: 2px solid #dce7ff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(91, 124, 226, 0.18);
+}
+
+.rule-category li:last-child {
+    margin-bottom: 0;
+}
+
+.rule-category li strong {
+    color: #2449a4;
 }
 
 .punishment {
-    color: #cc0000;
-    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 7px 12px;
+    color: #a62929;
+    background: linear-gradient(135deg, #fff0f0, #ffe1e1);
+    border: 1px solid rgba(204, 0, 0, 0.18);
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 0.92em;
+    box-shadow: 0 3px 8px rgba(204, 0, 0, 0.08);
+}
+
+.punishment::before {
+    background: #d64545 !important;
+    border-color: #fff0f0 !important;
+    box-shadow: 0 0 0 2px rgba(214, 69, 69, 0.18) !important;
 }
 
 .contact-admin,
@@ -217,7 +289,15 @@ h1 {
     }
 
     .rule-category {
-        padding: 15px;
+        padding: 18px 16px;
+    }
+
+    .rule-category h3 {
+        align-items: flex-start;
+    }
+
+    .rule-category ul {
+        padding-left: 0;
     }
 
     .contact-admin a,
