@@ -200,10 +200,24 @@ h1 {
     box-shadow: 0 0 0 1px rgba(255,255,255,0.18), 0 10px 22px rgba(245,158,11,0.42), 0 0 20px rgba(251,146,60,0.7);
 }
 
+.community-link a.is-disabled {
+    background: linear-gradient(135deg, #c9d2e8 0%, #aab7d3 100%);
+    color: rgba(255, 255, 255, 0.9);
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: 0.8;
+    pointer-events: auto;
+}
+
 .contact-admin a:hover,
 .community-link a:hover {
     transform: translateY(-3px) scale(1.01);
     filter: brightness(1.08);
+}
+
+.community-link a.is-disabled:hover {
+    transform: none;
+    filter: none;
 }
 
 .contact-admin a:active,
